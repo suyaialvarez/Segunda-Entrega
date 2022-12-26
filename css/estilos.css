@@ -210,6 +210,16 @@ display: inline-block;
     left: 50%;
     text-shadow: 0 0 5px yellow;
     position: absolute;
+    animation: cambiaColor 4s infinite alternate;
+}
+
+@keyframes cambiaColor {
+    form {
+        color: orangered;
+    }
+    to {
+        color:yellow;
+    }
 }
 
 .titulo2{
@@ -219,10 +229,9 @@ display: inline-block;
     left: 45%;
     font-weight: bold;
     position: absolute;
-    animation:heartBeat;
-    animation-duration: 4s;
+    animation:heartBeat 4s;
+    
 }
-
 
 footer{
     height: 10vh;
