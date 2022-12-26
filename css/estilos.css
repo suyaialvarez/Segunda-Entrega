@@ -1,0 +1,248 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.encabezado{
+    height: 13vh;
+    width: 100%;
+    background-color: crimson;
+    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    box-shadow: inset 0 0 10px #222;
+
+}
+
+.logo{
+    list-style: none;
+    color: #222;
+    text-decoration: none;
+    
+}
+.logo img{
+    height: 5vh;
+    align-items: center;
+    
+}
+
+.logo:hover{
+    color:#fff;
+    text-decoration: underline black;
+}
+
+.barra {
+    font-size: 4vh;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra a:hover{
+    color:black;
+    text-decoration: underline #fff;
+}
+
+.logo{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 5p #fff;
+    text-align: left;
+}
+
+.barra{
+    text-align: center;
+}
+
+main{
+    height: calc(100vh - 23vh);
+    width: 100%;
+    background-image: url(css/img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+ }
+
+ .mainContacto{
+    position: relative;
+    display: inline-block;
+ }
+
+ .mainContacto form{
+    color: #fff;
+    font-size: 3vh;
+    margin-inline-start: 10px;
+    vertical-align:middle;
+    top: 30vh;
+    left: 40%;
+    position: absolute;
+}
+
+.mainContactoH2{
+    color: rgb(182, 24, 12);
+    font-size: 5vh;
+    margin-inline-start: 10px;
+    vertical-align:middle;
+    top: 20vh;
+    left: 45%;
+    position: absolute;
+    animation:pulse;
+    animation-duration: 4s;
+    
+}
+
+.mainNosotros h2{
+    font-size: 5vh;
+    top: 15vh;
+    left: 45%;
+    position: absolute;
+    animation:pulse;
+    animation-duration: 4s;
+}
+
+.mainNosotros p{
+    font-size: 5vh;
+    top: 30vh;
+    position: absolute;
+   
+}
+
+.mainServicios h2{
+    font-size: 5vh;
+    top: 15vh;
+    left: 45%;
+    position: absolute;
+    animation:pulse;
+    animation-duration: 4s;
+}
+
+.mainServicios p{
+    font-size: 5vh;
+    top: 30vh;
+    position: absolute;
+}
+
+
+
+.mainGalería h2{
+    color: #222;
+    font-size: 5vh;
+    top: 10vh;
+    left: 45%;
+    position: absolute;
+    animation:pulse;
+    animation-duration: 4s;
+}
+
+.mainGalería h3{
+    color: #222;
+    font-size: 5vh;
+    top: 15vh;
+    left: 40%;
+    position: absolute;
+    animation:rubberBand;
+    animation-duration: 4s;
+}
+
+.mainGalería div{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-column-gap: 10px;
+    margin-top: 25vh;
+    
+}
+
+.mainContacto input{
+display: inline-block;
+}
+
+.img1{
+    height: 40vh;
+    width: 60vh;
+    top: 20vh;
+    left: 35%;
+    position: absolute;
+}
+
+.img3{
+    height: 40vh;
+    width: 60vh;
+    top: 20vh;
+    display: inline-block;
+}
+
+
+.img4{
+    height: 40vh;
+    width: 60vh;
+    top: 20vh;
+    left: 35%;
+    position: absolute;
+}
+
+.titulo{
+    color: #222;
+    font-size: 3vh;
+    margin-inline-start: 10px;
+    vertical-align:middle;
+    top: 35vh;
+    left: 45%;
+    position: absolute;
+    animation:backInDown;
+    animation-duration: 1s;
+}
+.titulo1{
+    color: orangered;
+    font-size: 3vh;
+    top: 40vh;
+    left: 50%;
+    text-shadow: 0 0 5px yellow;
+    position: absolute;
+}
+
+.titulo2{
+    color: rgb(204, 14, 14);
+    font-size: 3vh;
+    top: 45vh;
+    left: 45%;
+    font-weight: bold;
+    position: absolute;
+    animation:heartBeat;
+    animation-duration: 4s;
+}
+
+
+footer{
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    align-items: center;
+    background-color:crimson;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    box-shadow: inset 0 0 10px #222;
+    text-align: center ;
+    color: #fff;
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    
+}
