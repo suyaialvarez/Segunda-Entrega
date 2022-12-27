@@ -257,5 +257,19 @@ footer{
 
 
 @media (max-width: 480px) {
-    
+    .logo{
+        display: none;
+    }
+    .encabezado {
+        height: 10vh;
+        width: 100%;
+    }
+    main{
+
+        height: calc(100vh - 20vh);
+        width: 100%;
+    }
+    .barra {
+        align-items: center;
+    }
 }
